@@ -1,0 +1,141 @@
+body {
+    background-color: #272727;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand span {
+    color: #00bcd4 !important;
+}
+
+.navbar-nav .btn {
+    position: relative;
+    transition: color 0.48s 0s cubic-bezier(0.23, 1, 0.32, 1), transform 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+    display: flex;
+    padding: 12px 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-nav .btn span {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.navbar-nav .btn::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%) scaleY(0);
+    width: 3px;
+    height: 100%;
+    background: #00bcd4;
+    transition: transform 0.48s 0.4s cubic-bezier(0.23, 1, 0.32, 1), width 0.48s 0.1s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.navbar-nav .btn:hover {
+    color: #ffffff;
+    transition: color 0.48s 0.24s cubic-bezier(0.23, 1, 0.32, 1), transform 0.48s 0.1s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.navbar-nav .btn:hover::before {
+    transform: translateY(-50%) scaleY(1);
+    width: 100%;
+    transition: transform 0.48s 0.1s cubic-bezier(0.23, 1, 0.32, 1), width 0.48s 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.navbar-nav .btn:active {
+    transform: scale(0.95);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.content {
+    font-family: 'Raleway', sans-serif;
+}
+
+.about-me-section {
+    background: linear-gradient(145deg, #272727, #272727);
+}
+
+.about-me-content {
+    margin-top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    border-radius: 1rem;
+}
+
+.about-me-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.about-me-content p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.about-me-image img {
+    height: 50%;
+    border-radius: 60rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hover {
+    font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  .hover:focus,
+  .hover:hover {
+    color: #00bcd4;
+  }
+  
+  .hover:focus:after,
+  .hover:hover:after {
+    width: 27%;
+    left: 0%;
+  }
+  
+  .hover:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+
