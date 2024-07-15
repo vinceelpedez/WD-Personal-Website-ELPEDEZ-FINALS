@@ -10,14 +10,14 @@
     <img src="https://i.pinimg.com/564x/7d/63/a0/7d63a0eddd6418289bbd9c46c026d946.jpg"alt="ELPEDEZ" width="200" height="200">
   </a>
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Seat Work 4</h3>
+
+  <h3 align="center">Finals -Resume Website</h3>
 </div>
-<!-- TODO: Make a short description -->
+
 <div align="center">
   Features Display
 </div>
-
+Formulating an Interactive Resume Website
 <br />
 
 
