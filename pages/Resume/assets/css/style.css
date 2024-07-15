@@ -1,0 +1,199 @@
+body {
+    background-color: #272727;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand span {
+    color: #00bcd4 !important;
+}
+
+.navbar-nav .btn {
+    position: relative;
+    transition: color 0.48s 0s cubic-bezier(0.23, 1, 0.32, 1), transform 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+    display: flex;
+    padding: 12px 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.navbar-nav .btn span {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.navbar-nav .btn::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%) scaleY(0);
+    width: 3px;
+    height: 100%;
+    background: #00bcd4;
+    transition: transform 0.48s 0.4s cubic-bezier(0.23, 1, 0.32, 1), width 0.48s 0.1s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.navbar-nav .btn:hover {
+    color: #ffffff;
+    transition: color 0.48s 0.24s cubic-bezier(0.23, 1, 0.32, 1), transform 0.48s 0.1s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.navbar-nav .btn:hover::before {
+    transform: translateY(-50%) scaleY(1);
+    width: 100%;
+    transition: transform 0.48s 0.1s cubic-bezier(0.23, 1, 0.32, 1), width 0.48s 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.navbar-nav .btn:active {
+    transform: scale(0.95);
+}
+
+.resume {
+    font-family: 'Raleway', sans-serif;
+    background-color: #272727;
+    color: white;
+    margin: 0;
+    padding: 40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    overflow: hidden;
+    margin-top: 70px;
+
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    width: 100%;
+}
+
+.resume {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.column {
+    width: 80%;
+    text-align: left;
+    padding: 10px;
+}
+
+.job, .education, .skills {
+    margin-bottom: 30px;
+}
+
+.job h3, .education h3, .skills span {
+    font-weight: bold;
+}
+
+span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.skills {
+    width: 100%;
+}
+
+.skill {
+    display: flex;
+    align-items: var(--border-right);
+    margin-bottom: 0px;
+    
+}
+
+.skill span {
+    width: 100px;
+}
+
+.bar {
+    background-color: white;
+    height: 10px;
+    width: 100%;
+    margin: 0 10px;
+    position: relative;
+}
+
+.progress {
+    background-color: #4CAF50;
+    height: 100%;
+}
+
+/* Button effect CSS */
+.button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+}
+
+.button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255, 255, 255, 0.6);
+    --animation-color: #37FF8B;
+    letter-spacing: 1px;
+    text-decoration: none;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+
+.hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+}
+
+.button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color));
+}
