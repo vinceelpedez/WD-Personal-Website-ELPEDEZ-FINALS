@@ -4,28 +4,29 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://app.daily.dev/vinceelpedez"><img src="https://api.daily.dev/devcards/v2/Yx3Al31hWxDrC1pA3kOvQ.png?r=abq&type=wide" width="652" alt="Vince's Dev Card"/></a>
+  <a href="https://github.com/vinceelpedez">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="https://i.pinimg.com/564x/7d/63/a0/7d63a0eddd6418289bbd9c46c026d946.jpg"alt="ELPEDEZ" width="200" height="200">
+  </a>
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seat Work 4</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Features Display
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
 
+![](https://visit-counter.vercel.app/counter.png?https://github.com/vinceelpedez/WD-ELPEDEZ-SA3)
 ---
 
 <br />
 <br />
+
 
 <!-- TODO: If you want to add more layers for your readme -->
 <details>
@@ -55,28 +56,32 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+
+Description of the project in details.
+Welcome to my interactive web resume! This digital portfolio showcases the projects I've worked on and the skills I've developed throughout this term. Dive into a visually engaging experience featuring fancy decorated fonts, pretty buttons, and captivating effects. Explore my journey, see the work I've accomplished, and learn about the expertise I've gained along the way. Each project highlights unique challenges I faced and the innovative solutions I implemented. Thank you for visiting, and I hope you enjoy exploring my professional growth and achievements through this creatively designed platform.
+
+
+- The project involves creating a personal portfolio website  using HTML, CSS. This website serves as an online presence to showcase of my professional profile, skills, experience, and provide a way for potential clients or employers to contact me hehe.
+- The purpose of creating this personal portfolio website for me,  is to establish a professional online presence where I can showcase my skills, experience, and projects. Here's what I'm aiming to achieve with this website also to have good grades :)
+
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+
+- MultiPage Website
+- Navigation Bar
+- Header Section
+- Footer and Additional Links
+- Image
+- Buttons and Call to Actions
+- CSS Styling
+  
 
 ### Technology
-<!-- TODO: List of Technology Used -->
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -117,4 +122,7 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Template Inspo | studied different templates | https://ph.pinterest.com/ |
+| Buttons inspo and effects | looked for good looking buttons | https://uiverse.io/ |
+|Inspo for Text design | Tried to find text design here | https://freefrontend.com/css-text-effects/ |
+|inspo | Tried looking at others web resume for inspo | https://youtube.com/ |
