@@ -15,9 +15,9 @@
 </div>
 
 <div align="center">
-  Features Display
+  Formulating an Interactive Resume Website
 </div>
-Formulating an Interactive Resume Website
+
 <br />
 
 
